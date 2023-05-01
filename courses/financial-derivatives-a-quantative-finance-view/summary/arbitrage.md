@@ -32,8 +32,8 @@ arbitrage for pricing:
 
 ### example 1
 
-![example](/images/Screenshot%202023-04-30%20164202.png)
-![values](/images/Screenshot%202023-04-30%20164319.png)
+![example](../images/Screenshot%202023-04-30%20164202.png)
+![values](../images/Screenshot%202023-04-30%20164319.png)
 
 if we add row one of the table to two times the second row we will end up with the third row.
 
@@ -90,7 +90,7 @@ Therefore this is an arbitrage portfolio.
 
 ### example 2
 
-![example](/images/Screenshot%202023-05-01%20090450.png)
+![example](../images/Screenshot%202023-05-01%20090450.png)
 
 $FairValue = \frac{600}{(1+0.0-75)} + \frac{600}{(1+0.015)^{2}} + \frac{10600}{(1+0.02)^{3}} = \$11166.55$
 
@@ -142,5 +142,12 @@ Justification of the law of one price:
 Suppose $P_{a}(0) \neq P_{b}(0)$:
 
 - these are the prices known today so not random.
-- This means one had to be bigger than the other.
+- This means one had to be bigger than the other $P_{a}(0) > P_{b}(0)$ or $P_{a}(0) < P_{b}(0)$. Let's assume $P_{a}(0) > P_{b}(0)$.
+
+now let's construct an arbitrage.
+
+- short position in A
+- long position in B
+
+long position would be buying asset B. A short position could be borrowing asset A selling it and promissing to return it on a future date.
 

@@ -65,8 +65,8 @@ $$
 
 example:
 
-![image](./images/Screenshot%202023-04-29%20182738.png)
-![image](./images/Screenshot%202023-04-29%20182803.png)
+![image](../images/Screenshot%202023-04-29%20182738.png)
+![image](../images/Screenshot%202023-04-29%20182803.png)
 
 $$
 V(t) = \alpha_{b}S_{b}(t) - \alpha_{a}S_{a}(t) \\
